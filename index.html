@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello there!</title>
+    </head>
+    <body>
+        <p id="display"></p>
+        <script>
+            const display = document.getElementById('display')
+
+            async function load() {
+                const response = await fetch('https://denocomm-test-server.deno.dev/')
+                display.innerText = response.text
+            }
+
+            load()
+        </script>
+    </body>
+</html>
