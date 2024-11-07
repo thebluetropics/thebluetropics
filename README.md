@@ -1,2 +1,1 @@
-### thebluetropics
-Hello, I am a developer from Indonesia. I love to build web apps...
+Hi, I am a developer from Indonesia!
